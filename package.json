@@ -1,7 +1,7 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "files": [
     "dist",
@@ -59,3 +59,5 @@
     "url": "https://github.com/kokim2022/vue-currency-by-country/issues"
   }
 }
+
+

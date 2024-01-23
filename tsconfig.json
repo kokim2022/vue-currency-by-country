@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "allowJs": true,
+    "outDir": "./dist",
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",

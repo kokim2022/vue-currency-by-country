@@ -15,6 +15,7 @@
       "require": "./dist/vue-currency-by-country.umd.cjs"
     }
   },
+  "homepage": "https://kokim2022.github.io/vue-currency-by-country",
   "types": "./dist/index.d.ts",
   "description": "Vue component for selecting curreny by country",
   "keywords": [

@@ -1,7 +1,7 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "dist",
@@ -16,7 +16,6 @@
     }
   },
   "homepage": "https://kokim2022.github.io/vue-currency-by-country",
-  "types": "./dist/index.d.ts",
   "description": "Vue component for selecting curreny by country",
   "keywords": [
     "vue",

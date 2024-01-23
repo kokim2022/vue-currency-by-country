@@ -1,7 +1,7 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.10",
   "type": "module",
   "files": [
     "dist",
@@ -13,10 +13,6 @@
     ".": {
       "import": "./dist/vue-currency-by-country.js",
       "require": "./dist/vue-currency-by-country.umd.cjs"
-    },
-    "./dist/vue-currency-by-country.css": {
-      "import": "./dist/vue-currency-by-country.cs",
-      "require": "./dist/vue-currency-by-country.cs"
     }
   },
   "types": "./dist/index.d.ts",

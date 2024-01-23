@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { CurrencyOption } from '../index';
+import { CurrencyOption } from '../ultility';
 export default defineComponent({
   props: {
     option: {

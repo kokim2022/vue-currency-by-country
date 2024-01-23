@@ -19,7 +19,7 @@
 import { defineComponent, ref, onMounted, watch } from 'vue'
 import VueMultiselect from "vue-multiselect";
 import axios from 'axios';
-import { CurrencyOption, apiUrl } from '../index';
+import { CurrencyOption, apiUrl } from '../ultility';
 import CurrencyOptionComponent from './CurrencyOption.vue';
 
 export default defineComponent({
@@ -89,4 +89,3 @@ export default defineComponent({
 })
 </script>
 
-<style src="vue-multiselect/dist/vue-multiselect.css"></style>

@@ -1,12 +1,10 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.0.13",
+  "version": "0.0.33",
   "type": "module",
   "files": [
-    "dist",
-    "src",
-    "index.d.ts"
+    "dist"
   ],
   "main": "./dist/vue-currency-by-country.umd.cjs",
   "module": "./dist/vue-currency-by-country.js",
@@ -15,9 +13,9 @@
       "import": "./dist/vue-currency-by-country.js",
       "require": "./dist/vue-currency-by-country.umd.cjs"
     },
-    "./style.css": "./dist/vue-currency-by-country.cs"
+    "./style.css": "./dist/style.css"
   },
-  "types": "index.d.ts",
+  "types": "types.d.ts",
   "homepage": "https://kokim2022.github.io/vue-currency-by-country",
   "description": "Vue component for selecting curreny by country",
   "keywords": [
@@ -32,12 +30,10 @@
   "author": "Htet Waiyan Aung <waiyanavionics@gmail.com> (https://htetwaiyan.site)",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc     && vite build",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "preview": "vite preview",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "build": "vite build && npm run generate:types",
+    "generate:types": "vue-tsc --declaration --emitDeclarationOnly --outdir ./dist",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "peerDependencies": {
     "vue": "^3.3.11",
@@ -55,7 +51,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kokim2022/vue-currency-by-country.git"
+    "url": "git+https://github.com/kokim2022/vue-currency-by-country.git"
   },
   "bugs": {
     "url": "https://github.com/kokim2022/vue-currency-by-country/issues"

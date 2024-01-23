@@ -13,6 +13,10 @@
     ".": {
       "import": "./dist/vue-currency-by-country.js",
       "require": "./dist/vue-currency-by-country.umd.cjs"
+    },
+    "./vue-currency-by-country.css": {
+      "import": "./dist/vue-currency-by-country.cs",
+      "require": "./dist/vue-currency-by-country.cs"
     }
   },
   "types": "./dist/index.d.ts",
@@ -38,7 +42,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "peerDependencies": {
-    "vue": "^3.3.11"
+    "vue": "^3.3.11",
+    "vue-multiselect": "3.0.0-beta.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
@@ -48,10 +53,8 @@
     "vite-plugin-dts": "^3.7.1",
     "vue-tsc": "^1.8.25",
     "axios": "^1.6.5",
-    "path": "^0.12.7"
-  },
-  "dependencies": {
-    "vue-multiselect": "3.0.0-beta.3"
+    "path": "^0.12.7",
+    "vite-plugin-static-copy": "^0.13.0"
   },
   "repository": {
     "type": "git",
@@ -61,3 +64,5 @@
     "url": "https://github.com/kokim2022/vue-currency-by-country/issues"
   }
 }
+
+

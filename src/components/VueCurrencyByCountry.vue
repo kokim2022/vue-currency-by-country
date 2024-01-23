@@ -16,7 +16,6 @@
 </template>
 
 <script lang="ts">
-import 'vue-multiselect/dist/vue-multiselect.css';
 import { defineComponent, ref, onMounted, watch } from 'vue'
 import VueMultiselect from "vue-multiselect";
 import axios from 'axios';
@@ -89,3 +88,5 @@ export default defineComponent({
   },
 })
 </script>
+
+<style src="vue-multiselect/dist/vue-multiselect.css"></style>

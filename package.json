@@ -38,7 +38,8 @@
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "deploy": "gh-pages -d dist"
   },
   "peerDependencies": {
     "vue": "^3.3.11",

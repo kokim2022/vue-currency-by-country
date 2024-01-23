@@ -1,11 +1,12 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.0.10",
+  "version": "0.0.11",
   "type": "module",
   "files": [
     "dist",
-    "src/components/"
+    "src/components/",
+    "index.d.ts"
   ],
   "main": "./dist/vue-currency-by-country.umd.cjs",
   "module": "./dist/vue-currency-by-country.js",

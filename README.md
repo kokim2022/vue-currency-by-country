@@ -41,6 +41,18 @@ export default defineComponent({
 
 ```
 
+## Usage
+
+```
+interface CurrencyOption {
+    country_flag: string;
+    country_name: string;
+    currency_short: string;
+    currency_name: string;
+    currency_symbol: string;
+}
+```
+
 ## LICENSE
 
 MIT@[kokim2020](https://github.com/kokim2022).

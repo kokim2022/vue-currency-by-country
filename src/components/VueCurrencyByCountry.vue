@@ -21,8 +21,7 @@ import VueMultiselect from "vue-multiselect";
 import axios from 'axios';
 import CurrencyOptionComponent from './CurrencyOption.vue';
 import { CurrencyOption } from '../types';
-import { apiUrl } from '../constants/MyConstants';
-
+import { apiUrl } from '../constants';
 export default defineComponent({
   components: { VueMultiselect, CurrencyOptionComponent },
   props: {

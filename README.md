@@ -43,7 +43,7 @@ export default defineComponent({
 
 ## Usage
 
-```
+```ts
 interface CurrencyOption {
     country_flag: string;
     country_name: string;

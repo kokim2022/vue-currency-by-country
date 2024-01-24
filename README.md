@@ -1,6 +1,6 @@
 # vue-currency-by-country
 
-https://www.youtube.com/watch?v=8WAD7H5ApeA
+![](https://www.youtube.com/watch?v=8WAD7H5ApeA)
 
 ## Install
 

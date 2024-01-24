@@ -1,7 +1,7 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.1.7",
+  "version": "0.1.8",
   "type": "module",
   "files": [
     "src",

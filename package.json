@@ -1,7 +1,7 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.1.9",
+  "version": "0.2.0",
   "type": "module",
   "files": [
     "src",
@@ -21,9 +21,9 @@
   "keywords": [
     "vue",
     "vue3",
+    "country",
     "curreny",
-    "curreny by country",
-    "vue-currency-by-country",
+    "curreny-by-country",
     "vue-currency-by-country"
   ],
   "license": "MIT",

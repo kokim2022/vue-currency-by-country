@@ -41,7 +41,7 @@ export default defineComponent({
 
 ```
 
-## Usage
+## Interfaces
 
 ```ts
 interface CurrencyOption {

@@ -1,7 +1,7 @@
 <script  lang="ts">
 import { defineComponent, ref } from 'vue';
 import VueCurrencyByCountry from './components/VueCurrencyByCountry.vue';
-import { CurrencyOption } from './ultility';
+import { CurrencyOption } from './types';
 export default defineComponent({
   components: { VueCurrencyByCountry },
   setup() {

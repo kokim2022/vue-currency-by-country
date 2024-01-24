@@ -1,21 +1,20 @@
 {
   "name": "vue-currency-by-country",
   "private": false,
-  "version": "0.0.33",
+  "version": "0.1.0",
   "type": "module",
   "files": [
+    "src",
     "dist"
   ],
-  "main": "./dist/vue-currency-by-country.umd.cjs",
-  "module": "./dist/vue-currency-by-country.js",
+  "module": "./dist/vue-currency-by-country.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-currency-by-country.js",
-      "require": "./dist/vue-currency-by-country.umd.cjs"
+      "import": "./dist/vue-currency-by-country.es.js",
+      "types": "./dist/types/index.d.ts"
     },
     "./style.css": "./dist/style.css"
   },
-  "types": "types.d.ts",
   "homepage": "https://kokim2022.github.io/vue-currency-by-country",
   "description": "Vue component for selecting curreny by country",
   "keywords": [
@@ -30,10 +29,7 @@
   "author": "Htet Waiyan Aung <waiyanavionics@gmail.com> (https://htetwaiyan.site)",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run generate:types",
-    "generate:types": "vue-tsc --declaration --emitDeclarationOnly --outdir ./dist",
-    "preview": "vite preview --port 4173",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "build": "rimraf dist && vue-tsc && vite build"
   },
   "peerDependencies": {
     "vue": "^3.3.11",
@@ -47,7 +43,8 @@
     "vite-plugin-dts": "^3.7.1",
     "vue-tsc": "^1.8.25",
     "axios": "^1.6.5",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "rimraf": "^5.0.1"
   },
   "repository": {
     "type": "git",

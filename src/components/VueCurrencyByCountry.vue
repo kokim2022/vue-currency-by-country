@@ -19,8 +19,9 @@
 import { defineComponent, ref, onMounted, watch } from 'vue'
 import VueMultiselect from "vue-multiselect";
 import axios from 'axios';
-import { CurrencyOption, apiUrl } from '../ultility';
 import CurrencyOptionComponent from './CurrencyOption.vue';
+import { CurrencyOption } from '../types';
+import { apiUrl } from '../constants/MyConstants';
 
 export default defineComponent({
   components: { VueMultiselect, CurrencyOptionComponent },

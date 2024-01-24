@@ -2,7 +2,7 @@
 ## Install
 
 ```bach
-$ npm install react-gauge-meter
+$ npm install vue-currency-by-country
 ```
 
 ## Usage
@@ -11,9 +11,11 @@ For Demo, you can see: [https://kokim2022.github.io/vue-currency-by-country/](ht
 
 ```ts
 <script  lang="ts">
+
 import { defineComponent, ref } from 'vue';
 import VueCurrencyByCountry, { CurrencyOption } from "vue-currency-by-country";
 import "vue-currency-by-country/style.css"
+
 export default defineComponent({
   components: { VueCurrencyByCountry },
   setup() {

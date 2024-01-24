@@ -1,4 +1,5 @@
 # vue-currency-by-country
+[![Vue Currency By Country](https://img.youtube.com/vi/8WAD7H5ApeA/0.jpg)](https://www.youtube.com/watch?v=8WAD7H5ApeA "Vue Currency By Country")
 ## Install
 
 ```bach

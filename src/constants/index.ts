@@ -1,1 +1,1 @@
-export const apiUrl = "https://restcountries.com/v3.1/all?fields=name,currencies,flags"
+export const apiUrl = "https://chat.myexpensemanager.app/currency_by_country"

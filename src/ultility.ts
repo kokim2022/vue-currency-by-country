@@ -10,4 +10,4 @@ export enum CurrencySymbol {
   MMK = 'MMK'
 }
 
-export const apiUrl = "https://chat.myexpensemanager.app/currency_by_country"
+export const apiUrl = "https://restcountries.com/v3.1/all?fields=name,currencies,flags"
